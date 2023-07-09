@@ -51,6 +51,5 @@ condition:
         attribute: self_addressed
         state: true
 action:
-  - 
   - choose:
     default: !input 'target_action'
